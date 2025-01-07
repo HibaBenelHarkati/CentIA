@@ -1,4 +1,3 @@
-#this file includes all the process to prepare the sata(tokenize, lemmatize)
 import random
 import json
 import pickle
@@ -15,7 +14,7 @@ from tensorflow.keras.optimizers import SGD   #stochastic rediant descent
 nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
-intents = json.load(open("intent.json", "r", encoding='utf-8'))  # Added encoding for French text
+intents = json.load(open("intent.json", "r", encoding='utf-8')) #juste pour les mots en fr
 words = []
 classes = []
 documents = []
@@ -24,7 +23,7 @@ ignore_letters = ["?", "!", ".", ","]
 # Process intents
 for intent in intents["intents"]:
     for pattern in intent["patterns"]:
-        word_list = word_tokenize(pattern.lower())  # Added lowercase for consistency
+        word_list = word_tokenize(pattern.lower())  
         words.extend(word_list)
         documents.append((word_list, intent["tag"]))
         if intent["tag"] not in classes:
@@ -58,7 +57,7 @@ training = np.array(training, dtype=object)
 x_train = np.array([item[0] for item in training])
 y_train = np.array([item[1] for item in training])
 
-# Neural Network
+# creation du CNN 
 model = Sequential()
 model.add(Dense(128, input_shape=(len(x_train[0]),), activation="relu"))
 model.add(Dropout(0.5))
