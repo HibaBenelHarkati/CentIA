@@ -2,7 +2,7 @@ import random
 import json
 import pickle
 import numpy as np
-import nltk     #Le module NLTK est une boîte à outils massive, destinée à vous aider avec l'ensemble de la méthodologie de traitement du langage naturel (NLP).
+import nltk    
 nltk.download('punkt_tab')
 import tensorflow
 from nltk.stem import WordNetLemmatizer #if we have working -work ... are ggoing to considered the same
