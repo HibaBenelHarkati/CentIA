@@ -1,6 +1,7 @@
 # CentIA
  
-**CentIA** is an interactive chatbot, and its name is divided into two parts:  
+**CentIA** is an interactive chatbot,
+The name CentIA is divided into two parts:  
 - **Cent**: referring to Centrale.  
 - **IA** 🤖: representing Artificial Intelligence.  
 
