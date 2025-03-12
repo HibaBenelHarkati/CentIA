@@ -3,13 +3,13 @@
 **CentIA** is an interactive chatbot,
 The name CentIA is divided into two parts:  
 - **Cent**: referring to Centrale.  
-- **IA** 🤖: representing Artificial Intelligence.  
+- **IA** : representing Artificial Intelligence.  
 
 
-This chatbot is part of **my learning journey** in AI development. It combines Natural Language Processing (NLP) techniques to create dynamic interactions
+This chatbot is part of **my learning journey** in AI development. It combines NLP techniques to create dynamic interactions
 
 ## Features
-The chatbot uses an `intents.json` file as input, where you can customize and enhance interactions by adding your own prompts, patterns, and responses.
+The chatbot uses an `intents.json` file as input, where you can customize and enhance interactions by adding your own  patterns, and responses.
 
 ### Main Structure
 1. **`training.py`**: This file is used to train the chatbot model based on a neural network. It generates the necessary files for the chatbot to function.
