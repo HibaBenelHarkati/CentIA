@@ -18,8 +18,8 @@ The chatbot uses an `intents.json` file as input, where you can customize and en
 ### How to Use CentIA?
 1. Modify the `intents.json` file if you want to personalize prompts or responses.  
 2. Run the **`training.py`** script to train the model:  
-      ```bash
-       python training.py
+
+       `python training.py`
 Then launch app.py to start chatting with the chatbot
   ```bash python app.py    ```
    
