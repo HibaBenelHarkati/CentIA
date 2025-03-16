@@ -23,4 +23,4 @@ The chatbot uses an `intents.json` file as input, where you can customize and en
 Then launch app.py to start chatting with the chatbot
   ```bash python app.py    ```
    
-feel free to expand CentIA's features to `intents.json` and share your improvements
+feel free to expand CentIA's features to intents.json and share your improvements
